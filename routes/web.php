@@ -17,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-//    return view('welcome');
+    return view('layouts.layouts');
 //    $notification = resolve(Notification::class);
 
-    $notification = new App\Services\Notification\Notification();
-    $notification->sendSms();
+//    $notification = new App\Services\Notification\Notification();
+//    $notification->sendSms();
 });
