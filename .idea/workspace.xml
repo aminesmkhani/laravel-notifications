@@ -2,143 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0082b53-b5ed-4610-8f71-0ac998425f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/bootstrap-extended.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/bootstrap-extended.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/colors.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/components.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/components.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/colors/palette-gradient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/colors/palette-gradient.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/colors/palette-noui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/colors/palette-noui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/colors/palette-variables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/colors/palette-variables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/menu/menu-types/horizontal-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/menu/menu-types/horizontal-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/menu/menu-types/vertical-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/menu/menu-types/vertical-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/menu/menu-types/vertical-overlay-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/menu/menu-types/vertical-overlay-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/mixins/alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/mixins/alert.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/mixins/hex2rgb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/mixins/hex2rgb.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/mixins/main-menu-mixin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/mixins/main-menu-mixin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/mixins/transitions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/core/mixins/transitions.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/custom-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/custom-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-calendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-chat-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-chat-list.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-chat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-chat.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-ecommerce-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-ecommerce-details.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-ecommerce.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-ecommerce.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-email.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-email.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-file-manager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-file-manager.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-invoice-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-invoice-list.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-invoice-print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-invoice-print.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-invoice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-invoice.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-kanban.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-kanban.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-todo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-todo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/app-user.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/dashboard-ecommerce.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/dashboard-ecommerce.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-auth.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-auth.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-blog.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-coming-soon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-coming-soon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-faq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-faq.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-knowledge-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-knowledge-base.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-misc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-misc.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-pricing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-pricing.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/page-profile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/ui-colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/ui-colors.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/ui-feather.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/pages/ui-feather.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/charts/chart-apex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/charts/chart-apex.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-context-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-context-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-drag-drop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-drag-drop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-media-player.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-media-player.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-ratings.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-ratings.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-sliders.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-sliders.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-sweet-alerts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-sweet-alerts.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-toastr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-tour.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-tour.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-tree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/extensions/ext-component-tree.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-file-uploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-file-uploader.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-number-input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-number-input.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-quill-editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-quill-editor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-validation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-validation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-wizard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/form-wizard.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/pickers/form-flat-pickr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/pickers/form-flat-pickr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/pickers/form-pickadate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/forms/pickers/form-pickadate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/maps/map-leaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/maps/map-leaflet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/tables/table-ag-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/tables/table-ag-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/ui/coming-soon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/plugins/ui/coming-soon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/themes/bordered-layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/themes/bordered-layout.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/themes/dark-layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/themes/dark-layout.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/themes/semi-dark-layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css-rtl/themes/semi-dark-layout.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar-s-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendors/css/vendors-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendors/js/core/app-menu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendors/js/core/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendors/js/vendors.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fa/notification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/notifications/send-email.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../vue-covid-tracker (copy)" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisord.log" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisord.pid" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.pid" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +182,7 @@
       <workItem from="1620481985255" duration="6667000" />
       <workItem from="1620533980122" duration="16000" />
       <workItem from="1620557710629" duration="263000" />
-      <workItem from="1620568212128" duration="6697000" />
+      <workItem from="1620568212128" duration="11899000" />
     </task>
     <servers />
   </component>
