@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0082b53-b5ed-4610-8f71-0ac998425f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Services/Notification/Constant/EmailTypes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fa/validation.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../vue-covid-tracker (copy)" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/topic-created.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/topic-created.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/user-registered.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/user-registered.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Notification/Constant/EmailTypes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Notification/Constant/EmailTypes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/fa/notification.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/fa/notification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/notifications/send-email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/notifications/send-email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supervisord.log" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supervisord.pid" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.pid" afterDir="false" />
     </list>
@@ -23,6 +24,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/vuexy-html-bootstrap-admin-template/html/rtl/vertical-menu-template-semi-dark/form-select.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -187,6 +200,7 @@
       <workItem from="1620618899695" duration="33000" />
       <workItem from="1620629299824" duration="92000" />
       <workItem from="1620631132439" duration="943000" />
+      <workItem from="1620662503774" duration="7140000" />
     </task>
     <servers />
   </component>
