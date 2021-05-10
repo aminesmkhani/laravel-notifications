@@ -1,8 +1,5 @@
 @component('mail::message')
-# User Registered
-
-- list1
-- list2
+# Forget Password
 
 The body of your message.
 

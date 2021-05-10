@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Services\Notification\Constant\EmailTypes;
 use Illuminate\Http\Request;
 
 class NotificationsController extends Controller
@@ -14,7 +15,7 @@ class NotificationsController extends Controller
     public function email()
     {
         $users = User::all();
-//        dd($users);
-        return view('notifications.send-email',compact('users'));
+        $emailTypes = EmailTypes::toString();
+        return view('notifications.send-email',compact('users','emailTypes'));
     }
 }

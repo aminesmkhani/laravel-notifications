@@ -25,6 +25,16 @@
                                         </select>
                                     </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="basicSelect">@lang('notification.email_type')</label>
+                                        <select class="form-control" id="users">
+                                            @foreach($emailTypes as $key=>$type)
+                                                <option value="{{$key}}">{{$type}}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                </div>
                                 <div class="col-sm-9 offset-sm-3">
                                     <button type="submit" class="btn btn-primary mr-1">@lang('notification.send')</button>
                                     <button type="reset" class="btn btn-outline-secondary">@lang('notification.reset')</button>
