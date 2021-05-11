@@ -64,7 +64,7 @@
         </div>
         <ul class="nav navbar-nav align-items-center ml-auto">
             <li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <div class="user-nav d-sm-flex d-none"><span class="user-name font-weight-bolder">John Doe</span><span class="user-status">Admin</span></div><span class="avatar"><img class="round" src="{{asset('/images/avatar-s-10.jpg')}}" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span></a>
+                    <div class="user-nav d-sm-flex d-none"><span class="user-name font-weight-bolder">امین اسمخانی</span><span class="user-status">ادمین</span></div><span class="avatar"><img class="round" src="{{asset('/images/avatar-s-10.jpg')}}" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span></a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user">
                     <a class="dropdown-item" href="javascript:void(0);">
                         <i class="mr-50" data-feather="user"></i>Profile</a>
@@ -111,7 +111,17 @@
     <div class="shadow-bottom"></div>
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-            <li class="active nav-item"><a class="d-flex align-items-center" href="index.html"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Home">Home</span></a>
+            <li class="active nav-item">
+                <a class="d-flex align-items-center" href="{{route('notification.form.email')}}">
+                    <i data-feather="send"></i>
+                    <span class="menu-title text-truncate" data-i18n="Home">ارسال ایمیل</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="d-flex align-items-center" href="{{route('notification.form.sms')}}">
+                    <i data-feather="smartphone"></i>
+                    <span class="menu-title text-truncate" data-i18n="Home">ارسال پیام کوتاه</span>
+                </a>
             </li>
         </ul>
     </div>
@@ -141,98 +151,7 @@
             </div>
         </div>
         <div class="content-body">
-            <!-- Basic Horizontal form layout section start -->
-            <section id="basic-horizontal-layouts">
-                <div class="row">
-                    <div class="col-md-6 col-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4 class="card-title">Horizontal Form with Icons</h4>
-                            </div>
-                            <div class="card-body">
-                                <form class="form form-horizontal">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="form-group row">
-                                                <div class="col-sm-3 col-form-label">
-                                                    <label for="fname-icon">First Name</label>
-                                                </div>
-                                                <div class="col-sm-9">
-                                                    <div class="input-group input-group-merge">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i data-feather="user"></i></span>
-                                                        </div>
-                                                        <input type="text" id="fname-icon" class="form-control" name="fname-icon" placeholder="First Name" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group row">
-                                                <div class="col-sm-3 col-form-label">
-                                                    <label for="email-icon">Email</label>
-                                                </div>
-                                                <div class="col-sm-9">
-                                                    <div class="input-group input-group-merge">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i data-feather="mail"></i></span>
-                                                        </div>
-                                                        <input type="email" id="email-icon" class="form-control" name="email-id-icon" placeholder="Email" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group row">
-                                                <div class="col-sm-3 col-form-label">
-                                                    <label for="contact-icon">Mobile</label>
-                                                </div>
-                                                <div class="col-sm-9">
-                                                    <div class="input-group input-group-merge">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i data-feather="smartphone"></i></span>
-                                                        </div>
-                                                        <input type="number" id="contact-icon" class="form-control" name="contact-icon" placeholder="Mobile" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group row">
-                                                <div class="col-sm-3 col-form-label">
-                                                    <label for="pass-icon">Password</label>
-                                                </div>
-                                                <div class="col-sm-9">
-                                                    <div class="input-group input-group-merge">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i data-feather="lock"></i></span>
-                                                        </div>
-                                                        <input type="password" id="pass-icon" class="form-control" name="contact-icon" placeholder="Password" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9 offset-sm-3">
-                                            <div class="form-group">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck2" />
-                                                    <label class="custom-control-label" for="customCheck2">Remember me</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9 offset-sm-3">
-                                            <button type="reset" class="btn btn-primary mr-1">Submit</button>
-                                            <button type="reset" class="btn btn-outline-secondary">Reset</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Basic Horizontal form layout section end -->
-
+            @yield('content')
         </div>
     </div>
 </div>
