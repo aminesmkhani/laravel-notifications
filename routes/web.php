@@ -19,8 +19,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('layouts.layouts');
-});
+})->name('home');
 
+ /**
+  * Email Route
+  */
 Route::get('/notification/send-email',[NotificationsController::class,'email'])->name('notification.form.email');
-
 Route::post('/notification/send-email',[NotificationsController::class,'sendEmail'])->name('notification.send.email');
+
+/**
+ * Sms Route
+ */
+Route::get('/notification/send-sms',[NotificationsController::class,'sms'])->name('notification.form.sms');
+Route::post('/notification/send-sms',[NotificationsController::class,'sendSms'])->name('notification.send.sms');

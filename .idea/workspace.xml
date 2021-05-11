@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0082b53-b5ed-4610-8f71-0ac998425f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/notifications/send-sms.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../vue-covid-tracker (copy)" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Notification/Constant/EmailTypes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Notification/Constant/EmailTypes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/fa/notification.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/fa/notification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/notifications/send-email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/notifications/send-email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supervisord.log" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supervisord.pid" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.pid" afterDir="false" />
@@ -161,18 +160,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/notifications" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/notifications" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/vendors/js/core" />
       <recent name="$PROJECT_DIR$/public/vendors/js" />
       <recent name="$PROJECT_DIR$/public/vendors/css" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/emails" />
@@ -200,7 +199,10 @@
       <workItem from="1620618899695" duration="33000" />
       <workItem from="1620629299824" duration="92000" />
       <workItem from="1620631132439" duration="943000" />
-      <workItem from="1620662503774" duration="7140000" />
+      <workItem from="1620662503774" duration="7981000" />
+      <workItem from="1620707340471" duration="18000" />
+      <workItem from="1620707387813" duration="1496000" />
+      <workItem from="1620740086992" duration="1862000" />
     </task>
     <servers />
   </component>
