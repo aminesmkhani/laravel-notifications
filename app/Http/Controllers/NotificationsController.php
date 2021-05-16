@@ -47,8 +47,12 @@ class NotificationsController extends Controller
     }
 
 
-    public function sendSms()
+    public function sendSms(Request $request)
     {
-
+        $request->validate([
+           'user' => 'integer | exists:users,id',
+           'text' => 'string | max:256',
+        ]);
+        dd($request->all());
     }
 }
