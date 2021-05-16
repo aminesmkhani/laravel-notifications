@@ -28,7 +28,7 @@
                             </div>
                         </div>
                         @endif
-                        <form class="form form-horizontal" action="{{route('notification.send.email')}}" method="post">
+                        <form class="form form-horizontal" action="{{route('notification.send.sms')}}" method="post">
                             @csrf
                             <div class="row">
                                 <div class="col-12">
@@ -36,17 +36,17 @@
                                         <label for="user">@lang('notification.users')</label>
                                         <select class="form-control" id="user" name="user">
                                             @foreach($users as $user)
-                                                <option value="{{$user->id}}">{{$user->name}}</option>
+                                                <option {{old('user') == $user->id ? 'selected' : ''}} value="{{$user->id}}">{{$user->name}}</option>
                                             @endforeach
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-label-group mb-0">
-                                        <textarea data-length="80" class="form-control char-textarea" id="textarea-counter" name="text" rows="3" placeholder="Counter"></textarea>
+                                        <textarea data-length="256" class="form-control char-textarea" id="textarea-counter" name="text" rows="3" placeholder="Counter">{{old('text')}}</textarea>
                                         <label for="textarea-counter">پیام شما...</label>
                                     </div>
-                                    <small class="textarea-counter-value float-right"><span class="char-count">0</span> / 20 </small>
+                                    <small class="textarea-counter-value float-right"><span class="char-count">0</span> / 256 </small>
                                 </div>
 
                                 @if($errors->any())
