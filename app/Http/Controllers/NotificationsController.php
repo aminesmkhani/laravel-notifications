@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Services\Notification\Constant\EmailTypes;
+use App\Services\Notification\Exceptions\UserDoesNotHaveNumber;
 use App\Services\Notification\Notification;
 use Illuminate\Http\Request;
+use PhpParser\Node\Scalar\String_;
 
 class NotificationsController extends Controller
 {
@@ -47,12 +49,28 @@ class NotificationsController extends Controller
     }
 
 
-    public function sendSms(Request $request)
+    public function sendSms(Request $request, Notification $notification)
     {
         $request->validate([
            'user' => 'integer | exists:users,id',
            'text' => 'string | max:256',
         ]);
-        dd($request->all());
+
+        try {
+            $notification->sendSms(User::find($request->user),$request->text);
+            return $this->redirectBack('success',__('notification.sms_sent_successfully'));
+        }catch (UserDoesNotHaveNumber $e)
+        {
+            return $this->redirectBack('failed',__('notification.user_does_not_have_phone_number'));
+        }
+        catch (\Exception $e)
+        {
+            return $this->redirectBack('failed',__('notification.sms_has_problem'));
+        }
+    }
+
+    private function redirectBack(String $type,String $text)
+    {
+        return redirect()->back()->with($type,$text);
     }
 }
