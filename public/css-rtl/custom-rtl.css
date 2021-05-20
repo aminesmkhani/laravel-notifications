@@ -1,6 +1,19 @@
 .main-menu .navigation li > a > svg, .main-menu .navigation li > a > i, .main-menu .dropdown-menu svg, .main-menu .dropdown-menu i, .main-menu .dropdown-user > a > svg, .main-menu .dropdown-user > a > i, .main-menu .navigation > li > a > svg, .main-menu .navigation > li > a > i {
   float : right;
 }
+@font-face {
+    font-family:'IRANSansWeb';
+    src:url('../fonts/IRANSansWeb.eot') format("embedded-opentype"),
+    url('../fonts/IRANSansWeb.woff') format("woff"),
+    url('../fonts/IRANSansWeb.ttf') format("truetype");
+    font-size:15px;
+}
+* {
+    font-family: IRANSansWeb;
+}
+body {
+    font-family: IRANSansWeb !important;
+}
 
 .main-menu .navigation > li ul li > a {
   display : -webkit-box;

@@ -9,7 +9,6 @@
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>@yield('title')</title>
-{{--    <link rel="apple-touch-icon" href="{{asset('admin/app-assets/images/ico/apple-icon-120.png'}}">--}}
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
@@ -39,7 +38,7 @@
 <!-- END: Head-->
 
 <!-- BEGIN: Body-->
-<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="">
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="" style="">
 
 <!-- BEGIN: Header-->
 <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">
@@ -137,12 +136,10 @@
             <div class="content-header-left col-md-9 col-12 mb-2">
                 <div class="row breadcrumbs-top">
                     <div class="col-12">
-                        <h2 class="content-header-title float-left mb-0">Home</h2>
+                        <h2 class="content-header-title float-left mb-0">خانه</h2>
                         <div class="breadcrumb-wrapper">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a>
-                                </li>
-                                <li class="breadcrumb-item active">Index
+                                <li class="breadcrumb-item"><a href="{{route('home')}}">خانه</a>
                                 </li>
                             </ol>
                         </div>
@@ -162,7 +159,8 @@
 
 <!-- BEGIN: Footer-->
 <footer class="footer footer-static footer-light">
-    <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT  &copy; 2020<a class="ml-25" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Pixinvent</a><span class="d-none d-sm-inline-block">, All rights Reserved</span></span><span class="float-md-right d-none d-md-block">Hand-crafted & Made with<i data-feather="heart"></i></span></p>
+    <p class="clearfix mb-0">
+        <span class="float-md-left d-block d-md-inline-block mt-25">کپی رایت  &copy; ۲۰۲۱<a class="ml-25" href="http://sectron.ir" target="_blank">امین اسمخانی</a><span class="d-none d-sm-inline-block">, کلیه حقوق محفوظ است</span></span><span class="float-md-right d-none d-md-block">دست ساز و ساخته شده با<i data-feather="heart"></i></span></p>
 </footer>
 <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
 <!-- END: Footer-->
@@ -190,6 +188,7 @@
         }
     })
 </script>
+</body>
 </body>
 <!-- END: Body-->
 </html>
