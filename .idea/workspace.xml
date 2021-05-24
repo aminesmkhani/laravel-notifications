@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0082b53-b5ed-4610-8f71-0ac998425f53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/avatars-s-8.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../vue-covid-tracker (copy)" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avatar-s-10.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisord.log" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisord.pid" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.pid" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,15 +156,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/fonts" />
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/fonts" />
       <recent name="$PROJECT_DIR$/resources/views/notifications" />
       <recent name="$PROJECT_DIR$/public/vendors/js/core" />
       <recent name="$PROJECT_DIR$/public/vendors/js" />
@@ -211,7 +211,7 @@
       <workItem from="1621502790376" duration="4470000" />
       <workItem from="1621670396225" duration="630000" />
       <workItem from="1621706579880" duration="11000" />
-      <workItem from="1621856516782" duration="303000" />
+      <workItem from="1621856516782" duration="1219000" />
     </task>
     <servers />
   </component>
