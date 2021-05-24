@@ -13,6 +13,7 @@ return [
     'sms_text'  => 'متن پیام کوتاه',
     'send_sms'  => 'ارسال پیام کوتاه',
     'sms_sent_successfully' => 'ارسال پیام کوتاه با موفقیت انجام شد',
-    'user_does_not_have_phone_number' => 'کاربر انتخابی فاقد شماره تماس میباشد'
+    'user_does_not_have_phone_number' => 'کاربر انتخابی فاقد شماره تماس میباشد',
+    'home'      => 'خانه'
 
 ];
