@@ -111,15 +111,21 @@
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
             <li class="active nav-item">
+                <a class="d-flex align-items-center" href="{{route('home')}}">
+                    <i data-feather="home"></i>
+                    <span class="menu-title text-truncate" data-i18n="Home">@lang('notification.home')</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="d-flex align-items-center" href="{{route('notification.form.email')}}">
                     <i data-feather="send"></i>
-                    <span class="menu-title text-truncate" data-i18n="Home">ارسال ایمیل</span>
+                    <span class="menu-title text-truncate" data-i18n="Home">@lang('notification.send_email')</span>
                 </a>
             </li>
             <li class="nav-item">
                 <a class="d-flex align-items-center" href="{{route('notification.form.sms')}}">
                     <i data-feather="smartphone"></i>
-                    <span class="menu-title text-truncate" data-i18n="Home">ارسال پیام کوتاه</span>
+                    <span class="menu-title text-truncate" data-i18n="Home">@lang('notification.send_sms')</span>
                 </a>
             </li>
         </ul>
